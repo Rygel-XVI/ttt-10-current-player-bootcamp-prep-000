@@ -5,9 +5,5 @@ def turn_count(board)
       counter += 1
     end
   end
-  player = counter % 2
-  if player == 0
-    return "X"
-  else return "O"
-  end
+  return counter
 end
