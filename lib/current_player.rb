@@ -5,4 +5,6 @@ def turn_count(board)
       counter += 1
     end
   end
+  player = counter % 2
+  print player
 end
